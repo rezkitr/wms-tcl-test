@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 This project is built with NextJS and run on local dev
 
-Install dependency packgaes
+Install dependency packages
 
 ```bash
 npm install
