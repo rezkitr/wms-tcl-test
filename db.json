@@ -1,0 +1,56 @@
+{
+  "storages": [
+    { "id": "COLD-1", "name": "COLD-1", "temperature": -10 },
+    { "id": "COLD-2", "name": "COLD-2", "temperature": -16 },
+    { "id": "COLD-3", "name": "COLD-3", "temperature": 30 },
+    { "id": "COLD-4", "name": "COLD-4", "temperature": -25 },
+    { "id": "COLD-5", "name": "COLD-5", "temperature": 10 },
+    { "id": "COLD-6", "name": "COLD-6", "temperature": -20 },
+    { "id": "COLD-7", "name": "COLD-7", "temperature": -19 },
+    { "id": "COLD-8", "name": "COLD-8", "temperature": 10 },
+    { "id": "COLD-9", "name": "COLD-9", "temperature": -18 },
+    { "id": "COLD-10", "name": "COLD-10", "temperature": 23 }
+  ],
+  "inventory": [
+    {
+      "sku": "ICE-001",
+      "name": "Ice Cream",
+      "batch": "B-202510",
+      "expiry": "2026-02-14T10:25:33.000Z",
+      "qty": 50,
+      "location": "RACK-A1"
+    },
+    {
+      "sku": "MEAT-002",
+      "name": "Beef Slice",
+      "batch": "B-202509",
+      "expiry": "2025-11-10T18:47:11.000Z",
+      "qty": 20,
+      "location": "RACK-A2"
+    },
+    {
+      "sku": "SHRIMP-003",
+      "name": "Shrimp",
+      "batch": "B-202512",
+      "expiry": "2026-07-09T03:12:56.000Z",
+      "qty": 20,
+      "location": "RACK-B2"
+    },
+    {
+      "sku": "TUNA-004",
+      "name": "Tuna",
+      "batch": "B-202508",
+      "expiry": "2027-01-05T22:39:14.000Z",
+      "qty": 20,
+      "location": "RACK-B4"
+    }
+  ],
+  "location": [
+    { "id": "RACK-A1", "label": "Rack A1" },
+    { "id": "RACK-A2", "label": "Rack A2" },
+    { "id": "RACK-A3", "label": "Rack A3" },
+    { "id": "RACK-B1", "label": "Rack B1" },
+    { "id": "RACK-B2", "label": "Rack B2" },
+    { "id": "RACK-B3", "label": "Rack B3" }
+  ]
+}
